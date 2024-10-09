@@ -123,7 +123,7 @@ All have a folder value of 0
 | ToddlerMode          | 4      | -                                  | All buttons are locked                                                                                                     |
 | KindergartenMode     | 5      | -                                  | Previous and back buttons are locked. Adding a new card will not stop the current track but will schedule it as next track |
 | RepeatSingleModifier | 6      | -                                  | Repeat current track                                                                                                       |
-| FeedbackModifier     | 7      | -                                  | Will e.g. tell volume before changing it                                                                                   |
+| MaxVolume            | 7      | -                                  | Max. Volume it                                                                                   |
 
 ## Tonuino TNG 3.1.x
 [Repository](https://github.com/tonuino/TonUINO-TNG#version-31-13102022)
@@ -166,5 +166,3 @@ Currently only Mifare Classic and Ultralight are supported, but in case generic 
 - [Example of writing NTAG215 tags (for cloning Amiibos)](https://github.com/HiddenRamblings/TagMo)
   - ...but they [use Mifare Ultralight](https://github.com/HiddenRamblings/TagMo/blob/master/app/src/main/java/com/hiddenramblings/tagmo/NfcActivity.java#L152)
   - [Explanation how to use it](https://www.reddit.com/r/Amiibomb/comments/5ywlol/howto_the_easy_guide_to_making_your_own_amiibo/)
-
-

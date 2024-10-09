@@ -313,13 +313,16 @@ class EnterSimple : Fragment() {
                 specialRow.visibility = View.VISIBLE
                 specialLabel.text = getString(R.string.edit_special_label_for_sleep_timer)
             }
+            Format2ModifierMode.MaxVolume.value -> {
+                specialRow.visibility = View.VISIBLE
+                specialLabel.text = getString(R.string.edit_special_label_for_max_volume)
+            }
             Format2ModifierMode.Admin.value,
             Format2ModifierMode.FreezeDance.value,
             Format2ModifierMode.Locked.value,
             Format2ModifierMode.Toddler.value,
             Format2ModifierMode.Kindergarten.value,
-            Format2ModifierMode.RepeatSingle.value,
-            Format2ModifierMode.Feedback.value -> {
+            Format2ModifierMode.RepeatSingle.value -> {
                 specialRow.visibility = View.GONE
                 specialLabel.text = getString(R.string.edit_hidden_label)
             }

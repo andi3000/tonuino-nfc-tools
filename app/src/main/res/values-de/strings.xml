@@ -82,11 +82,12 @@
         <item>Admin Menü</item>
         <item>Einschlaf Modus</item>
         <item>Pausetanz Modus</item>
-        <item>Sperre</item>
+        <item>Sperre</item><!--3-->
         <item>Kleinkind Modus</item>
         <item>Kindergarten Modus</item>
         <item>Titel wiederholen</item>
-        <item>Audio-Feedback</item>
+        <item>Max Volume</item> <!--7-->
+        <!--<item>Audio-Feedback</item>-->
     </string-array>
     <string-array name="edit_modifier_tags_description">
         <item>Öffnet das TonUINO admin Menü</item>
@@ -96,11 +97,12 @@
         <item>Alle Tasten werden gesperrt.</item>
         <item>Die vor- und zurück Tasten werden gesperrt. Ein neuer Tag wird nicht sofort abgespielt, sondern erst nachdem der aktuelle beendet wurde.</item>
         <item>Wiederholt den aktuellen Titel.</item>
-        <item>Gibt zum Beispiel die Lautstärke aus, bevor sie geändert wird.</item>
+        <item>Die maximale Lautstärke.</item>
     </string-array>
 
     <string name="edit_special_from">Zwischen Titel %d</string>
     <string name="edit_special_label_for_sleep_timer">Minuten</string>
+    <string name="edit_special_label_for_max_volume">Max. Volume (<=30)</string>
     <string name="edit_special2_to">Und Titel %d</string>
 
     <string name="edit_write_button">Daten auf Tag %s schreiben</string>
