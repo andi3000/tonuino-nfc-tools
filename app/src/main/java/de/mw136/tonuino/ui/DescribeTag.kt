@@ -38,7 +38,7 @@ enum class Format3Mode(val value: Int) {
 
 enum class Format2ModifierMode(val value: Int) {
     Admin(0), SleepTimer(1), FreezeDance(2), Locked(3),
-    Toddler(4), Kindergarten(5), RepeatSingle(6), Feedback(7)
+    Toddler(4), Kindergarten(5), RepeatSingle(6), MaxVolume(7)
 }
 
 fun usageExample1() {
@@ -70,5 +70,3 @@ fun usageExample1() {
     println("a1: $a1")
     println("a2: $a2")
 }
-
-
